@@ -1,0 +1,26 @@
+{
+  "name": "stagiu-nightwatch",
+  "version": "1.0.0",
+  "description": "stagiu-nightwatch description",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch -e devLocal -c config/config.json -a google"
+  },
+  "keywords": [
+    "test",
+    "integration"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Alex Lesanu <alesanu@synthesio.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.13.0",
+    "gulp": "^4.0.0",
+    "js-beautify": "^1.8.9",
+    "nightwatch": "^1.0.19",
+    "yargs": "^13.2.2"
+  }
+}
